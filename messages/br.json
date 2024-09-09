@@ -1,0 +1,11 @@
+{
+  "HomePage": {
+    "get-started": "Comece editando o arquivo",
+    "save": "Salve-o e veja as alterações instantaneamente!",
+    "deploy": "Faça o deploy agora",
+    "read-docs": "Leia nossa documentacão",
+    "learn": "Aprenda",
+    "examples": "Exemplos",
+    "go-next": "Ir para nextjs.org"
+  }
+}

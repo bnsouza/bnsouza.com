@@ -1,0 +1,31 @@
+{
+  "arrowParens": "always",
+  "bracketSameLine": true,
+  "bracketSpacing": false,
+  "quoteProps": "as-needed",
+  "semi": true,
+  "useTabs": false,
+  "endOfLine": "lf",
+  "singleQuote": false,
+  "tabWidth": 2,
+  "printWidth": 120,
+  "trailingComma": "es5",
+  "plugins": ["@ianvs/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^@/app/(.*)$",
+    "^@/components/(.*)$",
+    "^@/config/(.*)$",
+    "^@/controllers/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/styles/(.*)$",
+    "^@/types/(.*)$",
+    "",
+    "^@nfenarede/(.*)$",
+    "^[./]"
+  ],
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"]
+}
