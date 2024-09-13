@@ -1,17 +1,18 @@
 // ------------------------------------------------------------------------------------------------
 
+import {Container} from "@/components/Container";
 import {Hero} from "@/components/home/Hero";
-import MyJourney from "@/components/home/MyJourney";
-import {Schedule} from "@/components/home/Schedule";
+
+// import {Link} from '@/i18n/routing';
 
 // ------------------------------------------------------------------------------------------------
 
 export default function Home() {
   return (
     <>
-      <Hero />
-      <MyJourney />
-      <Schedule />
+      <Container>
+        <Hero />
+      </Container>
     </>
   );
 }

@@ -11,7 +11,10 @@
   },
   "dependencies": {
     "@awesome.me/kit-69a64c1416": "^1.0.4",
-    "@headlessui/react": "^2.1.5",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@headlessui/react": "^2.1.6",
+    "a11y-react-emoji": "^1.2.0",
+    "framer-motion": "^11.5.4",
     "next": "14.2.8",
     "next-intl": "^3.19.1",
     "next-themes": "^0.3.0",
@@ -32,7 +35,8 @@
     "prettier": "^3.3.3",
     "prettier-plugin-organize-imports": "^4.0.0",
     "prettier-plugin-tailwindcss": "^0.6.6",
+    "sharp": "^0.33.5",
     "tailwindcss": "^3.4.10",
-    "typescript": "^5.5.4"
+    "typescript": "^5.6.2"
   }
 }

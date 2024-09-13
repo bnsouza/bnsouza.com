@@ -1,5 +1,6 @@
 import typographyPlugin from "@tailwindcss/typography";
 import {type Config} from "tailwindcss";
+import {fontFamily} from "tailwindcss/defaultTheme";
 
 import typographyStyles from "./typography";
 
@@ -9,9 +10,29 @@ export default {
   plugins: [typographyPlugin],
   theme: {
     extend: {
+      animation: {
+        "spin-slow": "spin 10s linear infinite",
+        gradient: "animatedgradient 3s ease infinite alternate",
+      },
+      backgroundSize: {
+        "300%": "300%",
+      },
+      borderRadius: {
+        "4xl": "2rem",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", ...fontFamily.sans],
+      },
+      keyframes: {
+        animatedgradient: {
+          "0%": {backgroundPosition: "0% 50%"},
+          "50%": {backgroundPosition: "100% 50%"},
+          "100%": {backgroundPosition: "0% 50%"},
+        },
       },
     },
     fontSize: {

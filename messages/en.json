@@ -1,11 +1,51 @@
 {
-  "HomePage": {
-    "get-started": "Get started by editing",
-    "save": "Save and see your changes instantly.",
-    "deploy": "Deploy now",
-    "read-docs": "Read our docs",
-    "learn": "Learn",
-    "examples": "Examples",
-    "go-next": "Go to nextjs.org"
+  "Header": {
+    "menu-home": "Home",
+    "menu-about": "About",
+    "menu-work": "Work",
+    "menu-contact": "Contact",
+    "menu-nav": "Navigation",
+    "menu-close": "Close menu",
+    "theme-light": "Switch to light theme",
+    "theme-dark": "Switch to dark theme",
+    "theme-toggle": "Toggle theme",
+    "locale-en": "Switch to English",
+    "locale-br": "Trocar para Português",
+    "locale-toggle": "Trocar idioma"
+  },
+  "Hero": {
+    "emoji": "Hand waving",
+    "hello": "Hello, my name is Bruno Souza, and I’m...",
+    "choose": "Choose your profile:",
+    "tabs": "Visitor|Recruiter|Leader|Jr. Developer",
+    "phrases": "...a web developer. But my work goes beyond just writing code! When I'm not at the computer, I volunteer with the Scouting movement, where I learn and share values like leadership and collaboration.|...a professional with extensive experience in full-stack development. My versatility allows me to move easily between different areas and projects, always focused on delivering high-quality, impactful solutions.|...an entrepreneur, and I know the path of business. Entrepreneurship taught me to focus on results, understand the market, and lead teams with confidence, encouraging the development of each team member.|...a mentor, and I understand the challenges of those starting out in programming. I enjoy guiding and sharing what I’ve learned over the years, passing on experiences and knowledge so you can evolve more quickly."
+  },
+  "Footer": {
+    "back-top": "Back to top",
+    "copyright": "All rights reserved."
+  },
+  "MyJourney": {
+    "h3": "My journey",
+    "h2": "The versatility of someone who never stops learning",
+    "p1": "I’m from São Paulo, Brazil, and my relationship with computers started early, at home. My father was a programmer, and when I was a kid, I would watch him work with COBOL on an old 386, using 5 and 3-inch floppy disks. Sometimes, I’d even remind him to add the periods in the code! At 13, I stayed home sick for a week, and started learning to program and soon began helping him for real.",
+    "p2": "It was around that time that I witnessed the birth of the internet. I discovered Netscape, Linux, FrontPage, Dreamweaver, and Flash! Everything was changing fast, and as a curious teenager, I dove into ASP and PHP, leaving COBOL behind. From that point on, I never stopped. I saw jQuery rise, watched Flash shine and then be abandoned by Steve Jobs, and I followed the launch of the iPhone. PHP has also had its ups and downs, but it made a strong comeback (Server Components?!). I’ve explored various technologies, bet on Angular and lost, but today I’m a fan of React. I tried to launch a startup that didn’t work out, but I developed another service that’s been running for 12 years, and I’m still learning and evolving every day.",
+    "p3": "With all this experience, I’ve acquired skills that are rare nowadays. Wherever I am, I know I can contribute because I’ve always adapted well to changes — both in my career and in life. After so many years of improvement, I’ve realized that my greatest strength is excelling at whatever I set my mind to. So, what will we create together?"
+  },
+  "Skills": {
+    "title": "Developer Skill Sheet",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "architecture": "Architecture & Infrastructure",
+    "database": "Databases",
+    "devops": "DevOps & Automation",
+    "ia": "AI & Machine Learning",
+    "tests": "Testing & Monitoring",
+    "design": "Design & Prototyping",
+    "animation": "Videos & Animation",
+    "legacy": "Legacy Languages"
+  },
+  "Schedule": {
+    "question": "Want to learn more about how I can help with your project? Let’s chat!",
+    "button": "Schedule a conversation"
   }
 }

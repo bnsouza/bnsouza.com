@@ -1,5 +1,9 @@
+// ------------------------------------------------------------------------------------------------
+
 import {forwardRef} from "react";
 import clsx from "clsx";
+
+// ------------------------------------------------------------------------------------------------
 
 export const ContainerOuter = forwardRef<React.ElementRef<"div">, React.ComponentPropsWithoutRef<"div">>(
   function OuterContainer({className, children, ...props}, ref) {
@@ -11,6 +15,8 @@ export const ContainerOuter = forwardRef<React.ElementRef<"div">, React.Componen
   }
 );
 
+// ------------------------------------------------------------------------------------------------
+
 export const ContainerInner = forwardRef<React.ElementRef<"div">, React.ComponentPropsWithoutRef<"div">>(
   function InnerContainer({className, children, ...props}, ref) {
     return (
@@ -20,6 +26,8 @@ export const ContainerInner = forwardRef<React.ElementRef<"div">, React.Componen
     );
   }
 );
+
+// ------------------------------------------------------------------------------------------------
 
 export const Container = forwardRef<
   React.ElementRef<typeof ContainerOuter>,
@@ -31,3 +39,5 @@ export const Container = forwardRef<
     </ContainerOuter>
   );
 });
+
+// ------------------------------------------------------------------------------------------------

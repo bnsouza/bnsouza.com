@@ -1,11 +1,51 @@
 {
-  "HomePage": {
-    "get-started": "Comece editando o arquivo",
-    "save": "Salve-o e veja as alterações instantaneamente!",
-    "deploy": "Faça o deploy agora",
-    "read-docs": "Leia nossa documentacão",
-    "learn": "Aprenda",
-    "examples": "Exemplos",
-    "go-next": "Ir para nextjs.org"
+  "Header": {
+    "menu-home": "Início",
+    "menu-about": "Sobre",
+    "menu-work": "Trabalhos",
+    "menu-contact": "Contato",
+    "menu-nav": "Navegação",
+    "menu-close": "Fechar menu",
+    "theme-light": "Trocar para tema claro",
+    "theme-dark": "Trocar para tema escuro",
+    "theme-toggle": "Trocar tema",
+    "locale-en": "Switch to English",
+    "locale-br": "Trocar para Português",
+    "locale-toggle": "Toggle language"
+  },
+  "Hero": {
+    "emoji": "Acenando com a mão",
+    "hello": "Olá, meu nome é Bruno Souza, e sou...",
+    "choose": "Escolha seu perfil:",
+    "tabs": "Visitante|Recrutador|Líder|Desenvolvedor Jr.",
+    "phrases": "...desenvolvedor de sistemas. Mas meu trabalho vai além de apenas escrever códigos! Quando não estou no computador, atuo como voluntário no movimento escoteiro, onde aprendo e compartilho valores como liderança e colaboração.|...um profissional com ampla experiência em desenvolvimento full-stack. Minha versatilidade me permite transitar facilmente entre diferentes áreas e projetos, sempre focado em entregar soluções de qualidade e alto impacto.|...empreendedor e conheço bem o caminho dos negócios. Empreender me ensinou a focar em resultados, entender o mercado e liderar equipes com confiança e clareza, incentivando o desenvolvimento de cada membro do time.|...mentor, e entendo os desafios de quem está começando na programação. Gosto de orientar e compartilhar o que aprendi ao longo dos anos, dividindo experiências e conhecimentos para que você possa evoluir mais rapidamente."
+  },
+  "Footer": {
+    "back-top": "Voltar ao topo",
+    "copyright": "Todos os direitos reservados."
+  },
+  "MyJourney": {
+    "h3": "Minha jornada",
+    "h2": "A versatilidade de quem não para de aprender",
+    "p1": "Sou de São Paulo, Brasil, e minha relação com a informática começou cedo, em casa. Meu pai era programador, e quando eu ainda era criança, eu o observava programar em COBOL no saudoso 386, usando disquetes de 5 e depois 3 polegadas. Às vezes, até ajudava ele a colocar os pontos nas instruções! Quando fiz 13 anos, fiquei uma semana em casa doente, e aí então comecei a aprender a programar e passei a ajudá-lo de verdade.",
+    "p2": "Foi nessa época que testemunhei o nascimento da internet. Descobri o Netscape, Linux, Frontpage, Dreamweaver e Flash! Tudo mudava rápido, e eu, como adolescente curioso, mergulhei no ASP e PHP, deixando o COBOL para trás. A partir daí, não parei mais. Acompanhei o jQuery ganhar destaque, vi o Flash brilhar e ser deixado de lado por Steve Jobs, e testemunhei o lançamento do iPhone. O PHP também teve altos e baixos, mas voltou com força (Server Components?!). Experimentei diversas tecnologias, apostei no Angular e perdi, mas hoje sou fã do React. Tentei criar uma startup que não deu certo, mas fundei outro serviço que já opera há 12 anos, e sigo aprendendo e me reinventando diariamente.",
+    "p3": "Com essa trajetória, adquiri habilidades que são raras hoje em dia. Onde quer que eu esteja, sei que posso contribuir, pois sempre me adaptei bem às mudanças – tanto na carreira quanto na vida. Depois de tantos anos de aprimoramento, descobri que minha maior habilidade é exercer bem tudo o que me proponho a fazer. E então, o que vamos criar juntos?"
+  },
+  "Skills": {
+    "title": "Ficha de Habilidades de Desenvolvedor",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "architecture": "Arquitetura & Infraestrutura",
+    "database": "Bancos de Dados",
+    "devops": "DevOps & Automação",
+    "ia": "IA & Machine Learning",
+    "tests": "Testes & Monitoramento",
+    "design": "Design & Prototipação",
+    "animation": "Vídeos & Animação",
+    "legacy": "Linguagens Legadas"
+  },
+  "Schedule": {
+    "question": "Quer saber mais sobre como posso ajudar no seu projeto? Vamos conversar!",
+    "button": "Agende uma conversa"
   }
 }

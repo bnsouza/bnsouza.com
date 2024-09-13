@@ -1,8 +1,11 @@
+// ------------------------------------------------------------------------------------------------
 "use client";
 
 import {createContext, useEffect, useRef} from "react";
 import {usePathname} from "next/navigation";
 import {ThemeProvider, useTheme} from "next-themes";
+
+// ------------------------------------------------------------------------------------------------
 
 function usePrevious<T>(value: T) {
   const ref = useRef<T>();
@@ -13,6 +16,8 @@ function usePrevious<T>(value: T) {
 
   return ref.current;
 }
+
+// ------------------------------------------------------------------------------------------------
 
 function ThemeWatcher() {
   const {resolvedTheme, setTheme} = useTheme();
@@ -38,7 +43,11 @@ function ThemeWatcher() {
   return null;
 }
 
+// ------------------------------------------------------------------------------------------------
+
 export const AppContext = createContext<{previousPathname?: string}>({});
+
+// ------------------------------------------------------------------------------------------------
 
 export function Providers({children}: {children: React.ReactNode}) {
   const pathname = usePathname();
@@ -53,3 +62,5 @@ export function Providers({children}: {children: React.ReactNode}) {
     </AppContext.Provider>
   );
 }
+
+// ------------------------------------------------------------------------------------------------
