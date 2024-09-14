@@ -1,0 +1,175 @@
+{
+  "jobTitle": "Full-Stack Specialist",
+  "summary": {
+    "label": "Professional Summary",
+    "text": "Full-Stack Developer with over 25 years of experience, specializing in scalable and robust backend and frontend solutions. Experienced with technologies like React, Next.js, Node.js, FastAPI, AWS, Docker, CI/CD, and DevOps. Additionally, I am adaptable, focused on automation, code quality, and delivering efficient solutions. Eager to bring my extensive experience to the next challenge and help drive innovation and success in the next team I join."
+  },
+  "experiences": {
+    "label": "Work Experience",
+    "items": [
+      {
+        "title": "Founder and Lead Developer",
+        "company": "NFe na Rede",
+        "dates": "Jun 2012 - Present · 12 yrs 4 mos",
+        "responsibilities": [
+          "Made all the code for NFe na Rede, a web application for invoice management, processing over 1 million invoices.",
+          "Reduced invoice authorization time from 1 minute to 5 seconds by automating manual processes, optimizing the website architecture and streamlining the workflow from 10 steps to 1 step.",
+          "Managed both frontend and backend programming in an event-driven architecture, enhancing the user experience.",
+          "Leveraged my analytical skills to continuously improve operational efficiency by integrating JavaScript frameworks and optimizing PHP usage in a serverless environment as the core invoicing platform.",
+          "Increased user satisfaction by 87% through optimizing the frontend experience, enhancing website performance."
+        ]
+      },
+      {
+        "title": "Tech Manager",
+        "company": "ZAX App",
+        "dates": "Sep 2022 - Nov 2022 · 3 mos",
+        "responsibilities": [
+          "Led the project management of internal system remodeling, transforming multiple systems into a unified platform, ensuring full integration across departments.",
+          "Collaborated with the product team to ensure website architecture was optimized for frontend design and backend functionality.",
+          "Supervised the completion of API design and development to ensure seamless integration and improved responsiveness.",
+          "Improved system efficiency by 30% after platform unification, resulting in faster internal processes.",
+          "Drove enhancements in web application performance while overseeing organizational changes to boost team productivity."
+        ]
+      },
+      {
+        "title": "Backend Team Lead",
+        "company": "ZAX App",
+        "dates": "Feb 2022 - Aug 2022 · 7 mos",
+        "responsibilities": [
+          "Led a team of backend developers, coordinating tasks and timelines to ensure the timely delivery of web applications and APIs.",
+          "Played a key role in developing APIs and managing complex integrations between the internal systems and external services.",
+          "Participated in the recruitment process, including interviewing and onboarding new developers, improving team cohesion and performance.",
+          "Used effective communication skills to align technical objectives with business goals."
+        ]
+      },
+      {
+        "title": "Backend Developer",
+        "company": "ZAX App",
+        "dates": "Apr 2021 - Feb 2022 · 11 mos",
+        "responsibilities": [
+          "Developed and maintained system routines for marketplace flows, enhancing the backend programming performance using Python and Node.js.",
+          "Created a CI/CD pipeline, automating the deployment process and increasing security and stability.",
+          "Applied troubleshooting capabilities to optimize database operations and streamline backend performance for improved user experience."
+        ]
+      },
+      {
+        "title": "CTO",
+        "company": "Comercial G3 Informática Ltda",
+        "dates": "Apr 2016 - Sep 2020 · 4 yrs 6 mos",
+        "responsibilities": [
+          "Directed the infrastructure transition to AWS, including developing an internal system for EC2 management and enhancing web architecture.",
+          "Led backend programming efforts using PHP to integrate new features with external technologies, enhancing system scalability and security.",
+          "Designed and developed the frontend in Angular, delivering a better user experience across different devices.",
+          "Enhanced operational efficiency, enabling the company to scale operations by 200% and meet the growing demand with reduced costs.",
+          "Ensured smooth migrations and integrations by focusing on precision and systematic problem solving skills."
+        ]
+      },
+      {
+        "title": "CEO",
+        "company": "App Jolie",
+        "dates": "Apr 2015 - Apr 2016 · 1 yr 1 mo",
+        "responsibilities": [
+          "Founded App Jolie after a successful Startup Weekend pitch, placing 3rd and securing initial investment for development of a beauty platform.",
+          "Led all aspects of the startup, from market research and strategic planning to project management and web architecture.",
+          "Adapted quickly to industry demands, gaining valuable insights and developing a comprehensive understanding of the market while expanding my organizational and communication skills."
+        ]
+      }
+    ]
+  },
+  "education": {
+    "label": "Education",
+    "items": [
+      {
+        "degree": "Bachelor of Information Systems (Strategic Planning emphasis)",
+        "school": "Universidade Presbiteriana Mackenzie",
+        "dates": "2005 - 2010 (Incomplete)",
+        "note": "Developed essential strategic planning skills that have been pivotal in my professional journey, complementing my technical expertise."
+      },
+      {
+        "degree": "Bachelor of Electrical Engineering",
+        "school": "Universidade Presbiteriana Mackenzie",
+        "dates": "2003 - 2005 (Incomplete)",
+        "note": "Enhanced my understanding of physics and electricity, sharpening my math skills, which complemented my work in software development."
+      }
+    ]
+  },
+  "languages": {
+    "label": "Languages",
+    "items": ["Portuguese (native)", "English (professional)"]
+  },
+  "skills": {
+    "label": "Tech Skills",
+    "categories": [
+      {
+        "label": "Programming Languages",
+        "items": ["Javascript/Typescript", "Python", "PHP", "COBOL"]
+      },
+      {
+        "label": "Frontend",
+        "items": ["Angular", "CSS", "Framer Motion", "HTML", "Ionic", "Next.js", "React", "Tailwind CSS"]
+      },
+      {
+        "label": "Backend",
+        "items": ["Django", "Express", "FastAPI", "Laravel", "Node.js"]
+      },
+      {
+        "label": "Architecture & Infrastructure",
+        "items": [
+          "Event-Driven Architecture",
+          "Edge Computing",
+          "GraphQL",
+          "Micro Frontends",
+          "Microservices",
+          "REST API",
+          "Serverless",
+          "Vercel"
+        ]
+      },
+      {
+        "label": "Databases",
+        "items": ["DynamoDB", "MongoDB", "MySQL", "PostgreSQL", "Redis"]
+      },
+      {
+        "label": "DevOps & Automation",
+        "items": [
+          "AWS",
+          "Bref (PHP)",
+          "CI/CD",
+          "CloudFormation",
+          "Docker",
+          "Git",
+          "GitHub Actions",
+          "Grafana",
+          "Jenkins",
+          "Kubernetes",
+          "Prometheus",
+          "Terraform"
+        ]
+      },
+      {
+        "label": "AI & Machine Learning",
+        "items": ["AutoGen", "AWS SageMaker", "ChatGPT", "LangChain", "Llama"]
+      },
+      {
+        "label": "Testing & Monitoring",
+        "items": ["Codecov", "Datadog", "Jest", "New Relic", "pytest", "Sentry", "Unit Testing"]
+      },
+      {
+        "label": "Design & Prototyping",
+        "items": ["Figma", "Photoshop", "Sketch", "UI/UX"]
+      },
+      {
+        "label": "Videos & Animation",
+        "items": ["After Effects", "Premiere", "Remotion"]
+      }
+    ]
+  },
+  "hobbies": {
+    "label": "Hobbies",
+    "items": [
+      "Video gaming",
+      "Cooking",
+      "Camping (I’m an Explorer Scout Leader; honing leadership and teamwork skills while mentoring youth)"
+    ]
+  }
+}
