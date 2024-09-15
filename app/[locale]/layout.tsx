@@ -1,6 +1,7 @@
 // ------------------------------------------------------------------------------------------------
 
 import type {Metadata} from "next";
+import {Analytics} from "@vercel/analytics/react";
 import clsx from "clsx";
 import {NextIntlClientProvider} from "next-intl";
 import {getMessages} from "next-intl/server";
@@ -54,6 +55,7 @@ export default async function RootLayout({
           </Providers>
         </NextIntlClientProvider>
         <TailwindIndicator />
+        <Analytics />
       </body>
     </html>
   );
